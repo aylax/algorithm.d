@@ -22,3 +22,9 @@ s[i] is a printable ascii character.
 tip: Do not allocate extra space for another array. 
 You must do this by modifying the input array in-place with O(1) extra memory.
 ```
+
+
+
+- Solution      Language    [2]
+  - Rust        solution.rs [x] 
+  - Haskell     solution.hs [x]
