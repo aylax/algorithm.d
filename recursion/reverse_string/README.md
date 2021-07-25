@@ -12,7 +12,6 @@ Example 2:
 Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
  
-
 Constraints:
 
 1 <= s.length <= 105
@@ -23,8 +22,3 @@ tip: Do not allocate extra space for another array.
 You must do this by modifying the input array in-place with O(1) extra memory.
 ```
 
-
-
-- Solution      Language    [2]
-  - Rust        solution.rs [x] 
-  - Haskell     solution.hs [x]
