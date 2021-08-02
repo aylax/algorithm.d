@@ -1,2 +1,2 @@
 # dyn.so
-Algorithms
+solutions for algorithms
