@@ -1,2 +1,2 @@
-# algorithm.d
-Algorithms &amp; Data Structures
+# dyn.so
+Algorithms
