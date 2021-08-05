@@ -4,7 +4,7 @@
 //   pub val: i32,
 //   pub next: Option<Box<ListNode>>
 // }
-// 
+//
 // impl ListNode {
 //   #[inline]
 //   fn new(val: i32) -> Self {
@@ -14,19 +14,20 @@
 //     }
 //   }
 // }
-impl Solution {    
-    pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {    
-        if head.is_none() { return None; }
+impl Solution {
+    pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+        if head.is_none() {
+            return None;
+        }
         let mut prev = None;
-	    let mut current = head;
-	    while let Some(mut tmp) = current.take() {
-	        let next = tmp.next.take();
-	        tmp.next = prev.take();
-	        prev = Some(tmp);
-	        current = next;
+        let mut current = head;
+        while let Some(mut tmp) = current.take() {
+            let next = tmp.next.take();
+            tmp.next = prev.take();
+            prev = Some(tmp);
+            current = next;
         }
 
-	    prev
+        prev
     }
-
 }

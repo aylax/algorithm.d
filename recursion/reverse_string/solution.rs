@@ -2,9 +2,7 @@ impl Solution {
     pub fn reverse_string(xs: &mut Vec<char>) {
         helper_v2(xs, 0, xs.len() as usize - 1)
     }
-    
 }
-
 
 // Solution 1
 fn helper_v1(xs: &mut Vec<char>, pa: usize, pb: usize) {
@@ -13,7 +11,6 @@ fn helper_v1(xs: &mut Vec<char>, pa: usize, pb: usize) {
         helper_v1(xs, pa + 1, pb - 1)
     }
 }
-
 
 // Solution 2
 fn helper_v2(xs: &mut Vec<char>, a: usize, b: usize) {
