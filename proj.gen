@@ -1,0 +1,2 @@
+#!/bin/bash
+tree -aF -I '.git' > .proj

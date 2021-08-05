@@ -1,0 +1,26 @@
+.
+├── .gitignore
+├── LICENSE
+├── .proj
+├── proj.gen
+├── README.md
+└── recursion/
+    ├── binary_tree_search/
+    │   ├── README.md
+    │   ├── solution.hs
+    │   └── solution.rs
+    ├── README.md
+    ├── reverse_link_list/
+    │   ├── README.md
+    │   ├── solution.hs
+    │   └── solution.rs
+    ├── reverse_string/
+    │   ├── README.md
+    │   ├── solution.hs
+    │   └── solution.rs
+    └── swap_node_in_pairs/
+        ├── README.md
+        ├── solution.hs
+        └── solution.rs
+
+5 directories, 18 files
