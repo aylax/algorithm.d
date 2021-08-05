@@ -1,4 +1,4 @@
--- reverse list behaving the same as reverse string
-reverse' :: [a] -> [a]  
-reverse' [] = []  
-reverse' (x:xs) = reverse' xs ++ [x] 
+swap_pair' :: [a] -> [a]  
+swap_pair' [] = []  
+swap_pair' [x] = [x]
+swap_pair' (xa:xb:xs) = [xb, xa] ++ swap_pair'(xs)
