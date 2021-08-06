@@ -1,15 +1,19 @@
 .
 ├── .gitignore
-├── LICENSE
 ├── .proj
-├── proj.gen
+├── LICENSE
 ├── README.md
+├── proj.gen
 └── recursion/
+    ├── README.md
     ├── binary_tree_search/
     │   ├── README.md
     │   ├── solution.hs
     │   └── solution.rs
-    ├── README.md
+    ├── pascal_triangle/
+    │   ├── README.md
+    │   ├── solution.hs
+    │   └── solution.rs
     ├── reverse_link_list/
     │   ├── README.md
     │   ├── solution.hs
@@ -23,4 +27,4 @@
         ├── solution.hs
         └── solution.rs
 
-5 directories, 18 files
+6 directories, 21 files
