@@ -24,15 +24,20 @@ impl Solution {
         root: Option<Rc<RefCell<TreeNode>>>,
         val: i32,
     ) -> Option<Rc<RefCell<TreeNode>>> {
-        match root {
-            None => {
-                return None;
+        search(&root, val)
+    }
+}
+
+pub fn search(root: &Option<Rc<RefCell<TreeNode>>>, val: i32) -> Option<Rc<RefCell<TreeNode>>> {
+    match root {
+        None => return None,
+        Some(rrt) => {
+            let node = rrt.borrow();
+            match val.cmp(&node.val) {
+                Ordering::Equal => Some(rrt.clone()),
+                Ordering::Less => search(&node.left, val),
+                Ordering::Greater => search(&node.right, val),
             }
-            Some(head) => match val.cmp(head.val) {
-                Ordering::Equal => root,
-                Ordering::Less => Solution::search_bst(head.left, val),
-                Ordering::Greater => Solution::search_bst(head.right, val),
-            },
         }
     }
 }
