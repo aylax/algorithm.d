@@ -10,6 +10,10 @@
     │   ├── README.md
     │   ├── solution.hs
     │   └── solution.rs
+    ├── fibonacci_number/
+    │   ├── README.md
+    │   ├── solution.hs
+    │   └── solution.rs
     ├── pascal_triangle/
     │   ├── README.md
     │   ├── solution.hs
@@ -27,4 +31,4 @@
         ├── solution.hs
         └── solution.rs
 
-6 directories, 21 files
+7 directories, 24 files
