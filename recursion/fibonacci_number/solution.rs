@@ -4,9 +4,9 @@ impl Solution {
     }
 }
 
-pub fn fib_iter(step: i32, prev: i32, next: i32) -> i32 {
-    match step {
-        0 => prev,
-        _ => fib_iter(step - 1, next, prev + next),
+pub fn fib_iter(n: i32, a: i32, b: i32) -> i32 {
+    match n {
+        0 => a,
+        _ => fib_iter(n - 1, b, a + b),
     }
 }
