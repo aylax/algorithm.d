@@ -1,11 +1,14 @@
 .
 ├── .gitignore
-├── .proj
 ├── LICENSE
-├── README.md
+├── .proj
 ├── proj.gen
+├── README.md
 └── recursion/
-    ├── README.md
+    ├── binary_tree_depth/
+    │   ├── README.md
+    │   ├── solution.hs
+    │   └── solution.rs
     ├── binary_tree_search/
     │   ├── README.md
     │   ├── solution.hs
@@ -18,10 +21,19 @@
     │   ├── README.md
     │   ├── solution.hs
     │   └── solution.rs
+    ├── merge_two_sorted_lists/
+    │   ├── README.md
+    │   ├── solution.hs
+    │   └── solution.rs
     ├── pascal_triangle/
     │   ├── README.md
     │   ├── solution.hs
     │   └── solution.rs
+    ├── power_x_n/
+    │   ├── README.md
+    │   ├── solution.hs
+    │   └── solution.rs
+    ├── README.md
     ├── reverse_link_list/
     │   ├── README.md
     │   ├── solution.hs
@@ -35,4 +47,4 @@
         ├── solution.hs
         └── solution.rs
 
-8 directories, 27 files
+11 directories, 36 files
