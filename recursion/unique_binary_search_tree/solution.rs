@@ -49,17 +49,16 @@ pub fn make(xs: &mut Vec<Vec<Option<RRT>>>, idx: i32, range: i32) {
         .collect::<Vec<Option<RRT>>>()
         .iter_mut()
         .for_each(|left| {
-            let mut nodes = {
-                xs[(range - idx) as usize]
-                    .iter_mut()
-                    .map(|right| {
-                        let mut node = TreeNode::new(idx);
-                        node.left = left.clone();
-                        node.right = shift(&right, idx);
-                        Some(Rc::new(RefCell::new(node)))
-                    })
-                    .collect::<Vec<Option<RRT>>>()
-            };
+            let mut nodes = xs[(range - idx) as usize]
+                .iter_mut()
+                .map(|right| {
+                    let mut node = TreeNode::new(idx);
+                    node.left = left.clone();
+                    node.right = shift(&right, idx);
+                    Some(Rc::new(RefCell::new(node)))
+                })
+                .collect::<Vec<Option<RRT>>>();
+
             xs[range as usize].append(&mut nodes);
         })
 }
