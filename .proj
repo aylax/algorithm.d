@@ -1,11 +1,10 @@
 .
 ├── .gitignore
-├── .proj
 ├── LICENSE
-├── README.md
+├── .proj
 ├── proj.gen
+├── README.md
 └── recursion/
-    ├── README.md
     ├── binary_tree_depth/
     │   ├── README.md
     │   ├── solution.hs
@@ -38,6 +37,7 @@
     │   ├── README.md
     │   ├── solution.hs
     │   └── solution.rs
+    ├── README.md
     ├── reverse_link_list/
     │   ├── README.md
     │   ├── solution.hs
