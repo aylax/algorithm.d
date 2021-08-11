@@ -1,11 +1,10 @@
 .
 ├── .gitignore
-├── .proj
 ├── LICENSE
-├── README.md
+├── .proj
 ├── proj.gen
+├── README.md
 └── recursion/
-    ├── README.md
     ├── binary_tree_depth/
     │   ├── README.md
     │   ├── solution.hs
@@ -38,6 +37,7 @@
     │   ├── README.md
     │   ├── solution.hs
     │   └── solution.rs
+    ├── README.md
     ├── reverse_link_list/
     │   ├── README.md
     │   ├── solution.hs
@@ -54,9 +54,13 @@
     │   ├── README.md
     │   ├── solution.hs
     │   └── solution.rs
-    └── unique_binary_search_tree/
+    ├── unique_binary_search_tree/
+    │   ├── README.md
+    │   ├── solution.hs
+    │   └── solution.rs
+    └── validate_binary_search_tree/
         ├── README.md
         ├── solution.hs
         └── solution.rs
 
-14 directories, 45 files
+15 directories, 48 files
