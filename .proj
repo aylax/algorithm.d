@@ -1,17 +1,23 @@
 .
 ├── .gitignore
-├── LICENSE
 ├── .proj
-├── proj.gen
+├── LICENSE
 ├── README.md
+├── proj.gen
 └── recursion/
+    ├── README.md
     ├── backtracking/
+    │   ├── README.md
     │   ├── n_queens/
     │   │   ├── README.md
     │   │   ├── solution.hs
     │   │   └── solution.rs
-    │   └── README.md
+    │   └── sudoku_solver/
+    │       ├── README.md
+    │       ├── solution.hs
+    │       └── solution.rs
     ├── div_and_conq/
+    │   ├── README.md
     │   ├── binary_tree_depth/
     │   │   ├── README.md
     │   │   ├── solution.hs
@@ -44,7 +50,6 @@
     │   │   ├── README.md
     │   │   ├── solution.hs
     │   │   └── solution.rs
-    │   ├── README.md
     │   ├── reverse_link_list/
     │   │   ├── README.md
     │   │   ├── solution.hs
@@ -73,8 +78,7 @@
     │       ├── README.md
     │       ├── solution.hs
     │       └── solution.rs
-    ├── iteration/
-    │   └── README.md
-    └── README.md
+    └── iteration/
+        └── README.md
 
-20 directories, 57 files
+21 directories, 60 files
