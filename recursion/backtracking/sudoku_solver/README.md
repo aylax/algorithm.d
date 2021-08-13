@@ -25,3 +25,13 @@ board.length == 9
 board[i].length == 9
 board[i][j] is a digit or '.'.
 It is guaranteed that the input board has only one solution.
+
+
+
+### 解题步骤 (回溯)
+
+1. 从上到下, 从左到右 选择一个 空单元格
+2. 根据规则 得出这个单元格所有可能的解 [x]
+3. 若有解 => 随机选择一个解 x 填入, 然后重复 步骤1
+4. 若无解 => 退回到上一个单元格, 删除该解, 重复步骤3
+5. 无可选单元格 => 输出结论
