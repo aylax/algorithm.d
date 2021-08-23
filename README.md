@@ -12,8 +12,8 @@ git clone https://github.com/aylax/kithub.math.git
 
 
 ## Todo
-- [ ] do Haskell :: append
-- [ ] do Rust    :: append
+- [ ] do :: Rust
+- [ ] do :: Haskell
 
 
 ## Inspiration & Art :heart:
