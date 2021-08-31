@@ -20,4 +20,4 @@ The repo is available as proj which you can load in emacs.
 - [[https://github.com/RichardLitt/standard-readme.git][standard readme]]
 
 ** license
-[[https://github.com/aylax/defhub.math/blob/master/LICENSE][MIT]] © aylax
+[[https://github.com/aylax/defhub.math/blob/master/license][MIT]] © aylax
