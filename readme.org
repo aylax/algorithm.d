@@ -10,7 +10,7 @@ The repo used to record solution of math.
 
 ** install
 #+begin_src sh
-  git clone https://github.com/aylax/defhub.math
+  git clone https://github.com/aylax/devhub.math
 #+end_src
 
 ** usage
@@ -20,4 +20,4 @@ The repo is available as proj which you can load in emacs.
 - [[https://github.com/RichardLitt/standard-readme.git][standard readme]]
 
 ** license
-[[https://github.com/aylax/defhub.math/blob/master/license][MIT]] © aylax
+[[https://github.com/aylax/devhub.math/blob/master/license][MIT]] © aylax
