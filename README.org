@@ -1,0 +1,23 @@
+#+TITLE: aylax's math
+#+KEYWORDS: math
+#+DATE: 2021-08-31
+#+AUTHOR: aylax zhou
+#+EMAIL: zhoubye@foxmail.com
+#+DESCRIPTION: A description of math
+#+OPTIONS: author:t creator:t timestamp:t email:t
+
+The repo used to record solution of math.
+
+** install
+#+begin_src sh
+  git clone https://github.com/aylax/defhub.math
+#+end_src
+
+** usage
+The repo is available as proj which you can load in emacs.
+
+** refs & thanks
+- [[https://github.com/RichardLitt/standard-readme.git][standard readme]]
+
+** license
+[[https://github.com/aylax/defhub.math/blob/master/LICENSE][MIT]] © aylax
