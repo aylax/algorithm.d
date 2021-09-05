@@ -20,4 +20,4 @@ The repo is available as proj which you can load in emacs.
 - [[https://github.com/RichardLitt/standard-readme.git][standard readme]]
 
 ** license
-_MIT_ © aylax
+MIT © aylax
