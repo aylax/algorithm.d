@@ -1,0 +1,91 @@
+这篇文章为定量金融（Quants Finance）收集一份完整的python第三方包列表。
+
+数据源Data Sources
+
+yfinance-雅虎金融市场数据下载器
+
+findatapy - 获取彭博终端，Quandl和雅虎财经的数据
+
+googlefinance - 从谷歌财经获取实时股票价格
+
+yahoo-finance - 从雅虎财经下载股票报价，历史价格，产品信息和财务报表
+
+pandas-datareader - 从多个数据源获取经济/金融时间序列，包括谷歌财经，雅虎财经，圣路易斯联储(FRED)，OECD, Fama/French，世界银行，欧元区统计局等，是Pandas生态系统的重要组成
+
+pandas-finance - 提供高级接口下载和分析金融时间序列
+
+pyhoofinance - 从雅虎财经批量获取股票数据
+
+yfinanceapi - 从雅虎财经获取数据
+
+yql-finance - 从雅虎财经获取数据
+
+ystockquote - 从雅虎财经获取实时报价
+
+wallstreet - 实时股票和期权报价
+
+stock_extractor - 从网络上爬取股票信息
+
+Stockex - 从雅虎财经获取数据
+
+finsymbols - 获取全美证券交易所，纽约证券交易所和纳斯达克上市公司的详细数据
+
+inquisitor - 从Econdb获取经济数据，Econdb是全球经济指标聚合器
+
+chinesestockapi - 获取A股数据
+
+exchange - 获取最新的汇率报价
+
+ticks - 命令行程序，获取股票报价
+
+pybbg - 彭博终端COM的Python接口
+
+ccy - 获取外汇数据
+
+tushare - 获取中国股票，基金，债券和期货市场的历史数据，最新版是tushare pro需要网站注册后才能使用
+
+jsm - 获取日本股票市场的历史数据
+
+cn_stock_src - 从不同数据源获取中国的股票数据
+
+coinmarketcap - 从coinmarketcap获取数字货币数据
+
+after-hours - 获取美股盘前和盘后的市场价格
+
+bronto-python - 整合Bronto API接口
+
+pytdx - 获取中国国内股票的实时报价
+
+pdblp - 整合Pandas和彭博终端的公共接口
+
+tiingo - 从Tiingo平台获取股票日K线和实时报价/新闻流
+
+IEX - 从IEX交易所获取股票的实时报价和历史数据
+
+alpaca-trade-api - 从Alpaca平台获取股票实时报价和历史数据，并提供交易接口交易美股
+
+metatrader5 - 集成Python和MQL5交易平台，适合外汇交易
+
+akshare - 获取中国股票，基金，债券和宏观经济数据
+
+yahooquery - 从雅虎财经获取数据
+
+investpy - 从英为财经(http://Investing.com)获取数据
+
+yliveticker - 从雅虎财经通过Websocket获取实时报价
+
+科学运算和数据结构Numerical Libraries & Data Structures
+
+numpy - 进行数值运算的基础包，scipy和numpy令Python进行有效的矩阵运算成为可能
+
+scipy - 科学计算生态系统，广泛应用于数学，物理学和工程学等自然科学领域
+
+pandas - 提供了高性能的数据结构和数据分析工具
+
+quantdsl - 金融/交易领域进行定量分析的领域特定语言
+
+statistics - 进行基础统计运算
+
+sympy - 专门用于符号数学
+
+pymc3 - 用Python实现概率编程，贝叶斯建模，用Theano实现概率机器学习

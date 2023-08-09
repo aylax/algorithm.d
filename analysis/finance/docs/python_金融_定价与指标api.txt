@@ -1,0 +1,252 @@
+金融工具和定价Financial Instruments and Pricing
+
+PyQL - Quantlib的Python接口
+
+pyfin - 期权定价
+
+vollib - 计算期权价格，隐含波动率和希腊值
+
+QuantPy - 定量金融分析
+
+Finance-Python - 定量金融分析
+
+ffn - 拓展Pandas，提供一系列函数进行基础的量化分析
+
+pynance - 获取股票和衍生品市场的数据，分析和可视化
+
+hasura/base-python-dash - 快速入门部署Dash应用，Dash基于Flask，Plotly.js和React.js，允许用户用纯Python快速搭建强大的数据科学网页App
+
+hasura/base-python-bokeh - 如何用Bokeh实现数据可视化
+
+pysabr - 用Python实现SABR模型
+
+英文释义如下：
+
+PyQL - QuantLib's Python port.
+pyfin - Basic options pricing in Python. [ARCHIVED]
+vollib - vollib is a python library for calculating option prices, implied volatility and greeks.
+QuantPy - A framework for quantitative finance In python.
+Finance-Python - Python tools for Finance.
+ffn - A financial function library for Python.
+pynance - PyNance is open-source software for retrieving, analysing and visualizing data from stock and derivatives markets.
+tia - Toolkit for integration and analysis.
+hasura/base-python-dash - Hasura quickstart to deploy Dash framework. Written on top of Flask, Plotly.js, and React.js, Dash is ideal for building data visualization apps with highly custom user interfaces in pure Python.
+hasura/base-python-bokeh - Hasura quickstart to visualize data with bokeh library.
+pysabr - SABR model Python implementation.
+FinancePy - A Python Finance Library that focuses on the pricing and risk-management of Financial Derivatives, including fixed-income, equity, FX and credit derivatives.
+gs-quant - Python toolkit for quantitative finance
+willowtree - Robust and flexible Python implementation of the willow tree lattice for derivatives pricing.
+financial-engineering - Applications of Monte Carlo methods to financial engineering projects, in Python.
+optlib - A library for financial options pricing written in Python.
+tf-quant-finance - High-performance TensorFlow library for quantitative finance.
+指标Indicators
+
+pandas_talib - 整合Pandas和Talib，用pandas计算技术指标
+
+finta - 用Pandas计算常见的技术指标
+
+Tulipy - 技术指标库（tulipindicators的Python绑定）
+
+量化交易/回溯检验Trading & Backtesting
+
+TA-Lib - 计算技术指标，跟Numpy深度整合
+
+trade - 用于开发金融应用的基础包
+
+zipline - 强大的回溯检验框架，被很多量化交易平台作为底层技术，包括Qauntopian, 聚宽等
+
+QuantSoftware Toolkit - 创建和管理投资组合
+
+quantitative - 定量金融的基础工具，回溯检验
+
+analyzer - 接收实时报价并回溯检验
+
+bt - 回溯检验框架，比Zipline更灵活
+
+backtrader - 回溯检验框架，支持实盘交易，过去几年快速崛起，已成为最流行的量化工具之一
+
+pythalesians - 回溯检验框架
+
+pybacktest - 向量化回溯检验框架，向量化允许进行快速的回溯，但检验精度不高
+
+pyalgotrade - 回溯检验框架
+
+tradingWithPython - 提供一系列函数和自定义类来管理量化交易
+
+Pandas TA - 拓展Pandas，包含115种技术指标，快速创建交易策略
+
+ta - 用Pandas计算技术指标
+
+algobroker - 算法交易的部署引擎
+
+pysentosa - sentosa交易系统的Python接口
+
+finmarketpy - 分析市场数据，支持简单回溯检验
+
+binary-martingale - 自动化交易程序，用马丁格尔策略交易二元期权
+
+fooltrader - 利用大数据技术进行量化分析，包含回溯检验
+
+zvt - 提供统一和灵活的方式来获取数据，计算因子，选股，回溯检验和实盘交易
+
+pylivetrader - 兼容zipline的实时交易库
+
+pipeline-live - zipline扩展库，用于实盘交易
+
+zipline-extensions - Zipline扩展，适配QuantRocket
+
+moonshot - 向量化回溯检验和交易引擎
+
+PyPortfolioOpt - 金融投资组合优化，包括创建有效边界和其它高级算法
+
+riskparity.py - 用TensorFlow设计风险平价投资组合
+
+mlfinlab - 《金融机器学习应用》一书的实现
+
+pyqstrat - 快速地回测交易策略
+
+pinkfish - 证券分析
+
+aat - 异步算法交易引擎
+
+Backtesting.py - 回溯检验框架
+
+catalyst - 回溯检验框架，专门用于数字货币市场
+
+quantstats - 投资组合分析
+
+qtpylib - 回溯检验框架，支持实盘交易
+
+freqtrade - 开源数字货币交易机器人
+
+algorithmic-trading-with-python - 《Python算法交易》一书的源码和数据
+
+DeepDow - 用深度学习优化投资组合
+
+英文释义如下
+
+TA-Lib - perform technical analysis of financial market data.
+trade - trade is a Python framework for the development of financial applications.
+zipline - Pythonic algorithmic trading library.
+QuantSoftware Toolkit - Python-based open source software framework designed to support portfolio construction and management.
+quantitative - Quantitative finance, and backtesting library.
+analyzer - Python framework for real-time financial and backtesting trading strategies.
+bt - Flexible Backtesting for Python.
+backtrader - Python Backtesting library for trading strategies.
+pythalesians - Python library to backtest trading strategies, plot charts, seamlessly download market data, analyse market patterns etc.
+pybacktest - Vectorized backtesting framework in Python / pandas, designed to make your backtesting easier.
+pyalgotrade - Python Algorithmic Trading Library.
+tradingWithPython - A collection of functions and classes for Quantitative trading.
+Pandas TA - Pandas TA is an easy to use Python 3 Pandas Extension with 115+ Indicators. Easily build Custom Strategies.
+ta - Technical Analysis Library using Pandas (Python)
+algobroker - This is an execution engine for algo trading.
+pysentosa - Python API for sentosa trading system.
+finmarketpy - Python library for backtesting trading strategies and analyzing financial markets.
+binary-martingale - Computer program to automatically trade binary options martingale style.
+fooltrader - the project using big-data technology to provide an uniform way to analyze the whole market.
+zvt - the project using sql,pandas to provide an uniform and extendable way to record data,computing factors,select securites, backtesting,realtime trading and it could show all of them in clearly charts in realtime.
+pylivetrader - zipline-compatible live trading library.
+pipeline-live - zipline's pipeline capability with IEX for live trading.
+zipline-extensions - Zipline extensions and adapters for QuantRocket.
+moonshot - Vectorized backtester and trading engine for QuantRocket based on Pandas.
+PyPortfolioOpt - Financial portfolio optimisation in python, including classical efficient frontier and advanced methods.
+Eiten - Eiten is an open source toolkit by Tradytics that implements various statistical and algorithmic investing strategies such as Eigen Portfolios, Minimum Variance Portfolios, Maximum Sharpe Ratio Portfolios, and Genetic Algorithms based Portfolios.
+riskparity.py - fast and scalable design of risk parity portfolios with TensorFlow 2.0
+mlfinlab - Implementations regarding "Advances in Financial Machine Learning" by Marcos Lopez de Prado. (Feature Engineering, Financial Data Structures, Meta-Labeling)
+pyqstrat - A fast, extensible, transparent python library for backtesting quantitative strategies.
+NowTrade - Python library for backtesting technical/mechanical strategies in the stock and currency markets.
+pinkfish - A backtester and spreadsheet library for security analysis.
+aat - Async Algorithmic Trading Engine
+Backtesting.py - Backtest trading strategies in Python
+catalyst - An Algorithmic Trading Library for Crypto-Assets in Python
+quantstats - Portfolio analytics for quants, written in Python
+qtpylib - QTPyLib, Pythonic Algorithmic Trading http://qtpylib.io
+Quantdom - Python-based framework for backtesting trading strategies & analyzing financial markets [GUI ]
+freqtrade - Free, open source crypto trading bot
+algorithmic-trading-with-python - Free pandas and scikit-learn resources for trading simulation, backtesting, and machine learning on financial data.
+DeepDow - Portfolio optimization with deep learning
+Qlib - An AI-oriented Quantitative Investment Platform by Microsoft. Full ML pipeline of data processing, model training, back-testing; and covers the entire chain of quantitative investment: alpha seeking, risk modeling, portfolio optimization, and order execution.
+machine-learning-for-trading - Code and resources for Machine Learning for Algorithmic Trading
+AlphaPy - Automated Machine Learning [AutoML] with Python, scikit-learn, Keras, XGBoost, LightGBM, and CatBoost
+jesse - An advanced crypto trading bot written in Python
+rqalpha - A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities.
+FinRL-Library - A Deep Reinforcement Learning Library for Automated Trading in Quantitative Finance. NeurIPS 2020.
+bulbea - Deep Learning based Python Library for Stock Market Prediction and Modelling.
+ib_nope - Automated trading system for NOPE strategy over IBKR TWS.
+OctoBot - Open source cryptocurrency trading bot for high frequency, arbitrage, TA and social trading with an advanced web interface.
+bta-lib - Technical Analysis library in pandas for backtesting algotrading and quantitative analysis.
+Stock-Prediction-Models - Gathers machine learning and deep learning models for Stock forecasting including trading bots and simulations.
+tda-api - Gather data and trade equities, options, and ETFs via TDAmeritrade.
+风险分析Risk Analysis
+
+pyfolio - 计算投资组合和交易策略的业绩指标
+
+empyrical - 计算常用的风险和业绩指标
+
+fecon235 - 金融计量经济工具包，包括leptokurtotic风险高斯混合模型，自适应Boltzmann投资组合
+
+finance - 计算金融风险
+
+qfrm - 定量金融风险管理
+
+visualize-wealth - 构建投资组合和定量分析
+
+VisualPortfolio - 可视化投资组合表现
+
+因子分析Factor Analysis
+
+alphalens - 分析预测性因子的表现
+
+时间序列Time Series
+
+ARCH - Python实现ARCH模型
+
+statsmodels - 计量经济模型库，用于创建回归模型，统计检验，时序模型
+
+dynts - 操纵和分析时间序列
+
+PyFlux - 时间序列模型和因果推断
+
+tsfresh - 从时间序列中提取有意义的特征
+
+hasura/quandl-metabase - 可视化Quandl的时间序列数据集
+
+日历Calendars
+
+trading_calendars - 股票交易所财经日历
+
+bizdays - 工作日计算和效用工具
+
+pandas_market_calendars - 拓展Pandas，股票交易所财经日历
+
+Excel集成
+
+xlwings - 深度整合Python和Excel
+
+openpyxl - 读取/写入Excel 2007 xlsx/xlsm文件
+
+xlrd - 从Excel电子表格提取数据
+
+xlsxwriter - 将数据写入Excel电子表格
+
+xlwt - 创建跨平台和向后兼容的电子表格
+
+DataNitro - 深度整合Python和Excel，可免费试用，商业付费软件
+
+xlloop - 创建Excel用户自定义函数
+
+expy - Excel插件，允许用户从电子表格中执行Python代码和定义自定义函数
+
+pyxll - Excel插件，从Excel中执行Python代码
+
+数据可视化Visualization
+
+Matplotlib - Python数据可视化的基础包，从二维图表到三维图表
+
+Seaborn - 基于Matplotlib，快速创建美观的统计图表
+
+Plotly - 创建动态和交互式的图表
+
+Altair - 统计可视化工具，同时支持静态和交互式图表
+
+D-Tale - 可视化Pandas数据结构
